@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(180deg, #001845, #723c70);
+  color: white;
+  font-family: 'Bangers', cursive;
+  min-height: 100vh;
+}
+
+h1{
+  font-family: 'Bangers', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  margin-top: 50px;
+  font-weight: 500;
+}
+
+header, form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  flex-direction: column;
+}
+
+.icon{
+font-size: 50px;
+
+}
+
+form input, form button{
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  background: whitesmoke;
+  outline: none;
+  border-radius: 5px;
+  margin-top: -30px;
+}
+
+form input {
+  width: 40%;
+  margin-right: 5px;
+}
+
+form button {
+  color: green;
+  background: white;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+}
+
+form button:hover {
+
+  color: white;
+  background: green;
+}
+
+h2{
+  font-family: 'Bangers', cursive;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+
+.todo-container{
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#todo-lists {
+ min-width: 30%;
+}
+
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  padding: 9px;
+
+}
+
+.content input, .content button{
+  padding: 8px;
+  border: none;
+  background: whitesmoke;
+  outline: none;
+  border-radius: 5px;
+
+}
+
+.content input {
+  width: 90%;
+  color: #370617 ;
+  font-size: 16px;
+  font-family: 'Bangers', cursive;
+  margin-right: 3px;
+}
+
+button {
+  cursor: pointer;
+  margin: 0 2px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 00.4s;
+}
+
+.delete{
+  color: red; 
+  font-size: 20px;
+}
+
+.delete:hover {
+color: white;
+background:red;
+}
+
+.edit{
+  color: rgba(7, 247, 15, 0.852);
+  font-size: 20px;    
+}
+
+.edit:hover {
+color: white;
+background:rgba(7, 247, 15, 0.852);
+}
+
+.check{
+  color: rgba(13, 203, 77, 0.564);
+  font-size: 20px;    
+} 
+
+
+.check:hover {
+color: white;
+background:rgba(13, 203, 77, 0.564);
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+  color: rgba(13, 203, 77, 0.564);
+  
+}
