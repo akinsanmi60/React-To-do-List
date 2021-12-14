@@ -9,8 +9,8 @@ const Todo = ({text, todo, todos, setTodos}) => {
     const completeButton = () => {
         setTodos(todos.map(item => {
             if (item.id === todo.id) {
-                return{
-                    ...item, completed: !item.completed
+                return{// the completed is a CSS class 
+                    ...item, completed: !item.completed 
             }
             }
             return item
